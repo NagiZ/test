@@ -1,0 +1,35 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "myblog",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "keywords": [
+        "websocket",
+        "koa",
+        "ws",
+        "async",
+        "nunjucks"
+    ],
+    "author": "Nagi",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NagiZ/learn-javascript"
+    },
+    "dependencies": {
+        "url": "0.11.0",
+        "ws": "3.0.0",
+        "koa": "2.3.0",
+        "koa-bodyparser": "4.2.0",
+        "koa-router": "7.2.1",
+        "nunjucks": "3.0.1",
+        "mime": "1.3.6",
+        "mz": "2.6.0",
+        "sequelize": "4.3.1",
+        "uuid": "3.1.0",
+        "mysql2": "1.3.6"
+    }
+}
